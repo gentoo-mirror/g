@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="Free open-source tool for programming your amateur radio"
 HOMEPAGE="http://chirp.danplanet.com"
-SRC_URI="https://trac.chirp.danplanet.com/chirp_next/next-${PV}/chirp-${PV}.tar.gz"
+SRC_URI="https://trac.chirp.danplanet.com/chirp_next/next-${PV}/${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
