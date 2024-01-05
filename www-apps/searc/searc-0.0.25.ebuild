@@ -19,6 +19,11 @@ BDEPEND=""
 # do not use mirrors to download
 RESTRICT="mirror"
 
+src_unpack() {
+	unpack ${A}
+	mv sear.c-${PV} searc-${PV}
+}
+
 src_compile() {
 	use oldstorage && append-flags "-DSC_OLD_STORAGE"
 	use logmem && append-flags "-DSC_LOGMEM"
