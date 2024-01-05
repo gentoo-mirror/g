@@ -1,0 +1,13 @@
+g
+
+This is my personal ebuild gentoo overlay repository.
+I publish packaged software that I've written to be used on the Gentoo GNU/Linux distribution.
+There are also some programs here that I haven't written.
+Source tarballs are are checked for integrity with Manifest files.
+
+My programs:
+	program	ebuild package	project homepage
+	---
+	sear.c	www-apps/searc	http://ni.sijanec.eu/sijanec/sear.c
+
+Installing packages: emerge --ask www-apps/searc

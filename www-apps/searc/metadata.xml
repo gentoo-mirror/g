@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>anton@sijanec.eu</email>
+		<name>Anton Luka Šijanec</name>
+	</maintainer>
+	<use>
+		<flag name="logmem" lang="en">Store all log messages in memory and make them accessible over HTTP on /logs.html</flag>
+		<flag name="logmem" lang="sl">Hrani vsa dnevniška sporočila v spominu in jih naredi dostopna preko HTTP na /logs.html</flag>
+		<flag name="oldstorage" lang="en">Use old storage O(n) simple linked list for search queries instead of O(log n) binary search tree.</flag>
+		<flag name="oldstorage" lang="sl">Uporabi stari algoritem za shrambo iskalnih zahtev s O(n) kompleksnostjo namesto novega tsearch(3) O(log n) binarnega drevesa</flag>
+	</use>
+	<upstream>
+		<maintainer type="person">
+			<email>anton@sijanec.eu</email>
+			<name>Anton Luka Šijanec</name>
+		</maintainer>
+		<changelog>http://git.sijanec.eu/sijanec/sear.c/raw/branch/master/debian/changelog</changelog>
+		<doc>http://git.sijanec.eu/sijanec/sear.c/raw/branch/master/README.md</doc>
+		<bugs-to>mailto:anton+sear.c-ebuild@sijanec.eu</bugs-to>
+	</upstream>
+</pkgmetadata>
