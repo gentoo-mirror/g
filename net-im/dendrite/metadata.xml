@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>a@sijanec.eu</email>
+		<name>Anton Luka Šijanec</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="github">matrix-org/dendrite</remote-id>
+		<bugs-to>https://github.com/matrix-org/dendrite/issues</bugs-to>
+	</upstream>
+</pkgmetadata>
