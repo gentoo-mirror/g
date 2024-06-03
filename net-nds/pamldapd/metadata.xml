@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>anton@sijanec.eu</email>
+		<name>Anton Luka Šijanec</name>
+	</maintainer>
+	<upstream>
+		<maintainer type="person">
+			<email>anton@sijanec.eu</email>
+			<name>Anton Luka Šijanec</name>
+		</maintainer>
+		<changelog>https://github.com/eisin/pamldapd/activity</changelog>
+		<doc>https://github.com/eisin/pamldapd/blob/master/README.adoc</doc>
+		<bugs-to>mailto:anton+pamldapd-ebuild@sijanec.eu</bugs-to>
+	</upstream>
+</pkgmetadata>
