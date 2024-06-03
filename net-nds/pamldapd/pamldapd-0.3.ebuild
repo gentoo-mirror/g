@@ -3,7 +3,8 @@ inherit go-module
 # max 80 chars
 DESCRIPTION="Simple LDAP server, uses PAM as backend"
 HOMEPAGE="https://github.com/eisin/pamldapd"
-SRC_URI="https://github.com/eisin/pamldapd/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz http://splet.sijanec.eu./dir/pamldapd-0.2-vendor.tar.xz"
+SRC_URI="http://ni.4a.si./sijanec/pamldapd/snapshot/pamldapd-${PV}.tar.gz http://splet.4a.si./dir/pamldapd-${PV}-vendor.tar.xz"
+# https://wiki.gentoo.org/wiki/Writing_go_Ebuilds
 
 LICENSE="Apache-2.0"
 SLOT="0"
