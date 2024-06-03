@@ -1,5 +1,5 @@
 EAPI=8
-inherit go
+inherit go-module
 # max 80 chars
 DESCRIPTION="Simple LDAP server, uses PAM as backend"
 HOMEPAGE="https://github.com/eisin/pamldapd"
