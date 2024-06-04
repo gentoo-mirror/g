@@ -29,6 +29,10 @@ src_compile() {
 }
 
 src_install() {
+	keepdir /var/log/pamldapd
+	fowners pamldapd:pamldapd /var/log/pamldapd
+	fperms 750 /var/log/pamldapd
+	newinitd "${FILESDIR}/pamldapd.initd" pamldapd
 	dobin pamldapd
 	default
 }
