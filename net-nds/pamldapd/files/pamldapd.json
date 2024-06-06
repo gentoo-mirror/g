@@ -1,0 +1,9 @@
+{
+	"listen": "/var/lib/pamldapd/sock",
+	"network": "unix",
+	"pamservicename": "pamldapd",
+	"peopledn": "ou=people,dc=localhost,dc=localdomain",
+	"groupsdn": "ou=groups,dc=localhost,dc=localdomain",
+	"bindadmindn": "uid=adminuser,dc=localhost,dc=localdomain",
+	"bindadminpassword": "password"
+}
