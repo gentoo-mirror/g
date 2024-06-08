@@ -1,5 +1,5 @@
 {
-	"listen": "/var/lib/pamldapd/sock",
+	"listen": "/var/run/pamldapd/sock",
 	"network": "unix",
 	"pamservicename": "pamldapd",
 	"peopledn": "ou=people,dc=localhost,dc=localdomain",

@@ -32,9 +32,6 @@ src_install() {
 	keepdir /var/log/pamldapd
 	fowners pamldapd:pamldapd /var/log/pamldapd
 	fperms 750 /var/log/pamldapd
-	keepdir /var/lib/pamldapd
-	fowners pamldapd:pamldapd /var/lib/pamldapd
-	fperms 755 /var/lib/pamldapd
 	insinto /etc
 	newins "${FILESDIR}/pamldapd.json" pamldapd.json
 	newinitd "${FILESDIR}/pamldapd.initd" pamldapd

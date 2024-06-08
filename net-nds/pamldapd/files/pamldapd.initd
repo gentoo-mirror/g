@@ -9,3 +9,6 @@ output_log="/var/log/pamldapd/stdout.log"
 error_log="/var/log/pamldapd/stdout.log"
 pidfile=/var/run/pamldapd.pid
 umask=0
+start_pre() {
+	checkpath -d -m 0775 -o pamldapd:pamldapd /var/run/pamldapd
+}
