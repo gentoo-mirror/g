@@ -1,0 +1,6 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+www-apps/searc:logmem - Hrani vsa dnevniška sporočila v spominu in jih naredi dostopna preko HTTP na /logs.html
+www-apps/searc:oldstorage - Uporabi stari algoritem za shrambo iskalnih zahtev s O(n) kompleksnostjo namesto novega tsearch(3) O(log n) binarnega drevesa
