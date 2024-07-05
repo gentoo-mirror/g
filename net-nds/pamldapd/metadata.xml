@@ -10,8 +10,8 @@
 			<email>anton@sijanec.eu</email>
 			<name>Anton Luka Šijanec</name>
 		</maintainer>
-		<changelog>https://github.com/eisin/pamldapd/activity</changelog>
-		<doc>https://github.com/eisin/pamldapd/blob/master/README.adoc</doc>
+		<changelog>https://ni.4a.si/sijanec/pamldapd</changelog>
+		<doc>https://ni.4a.si/sijanec/pamldapd/tree/README.adoc</doc>
 		<bugs-to>mailto:anton+pamldapd-ebuild@sijanec.eu</bugs-to>
 	</upstream>
 </pkgmetadata>
