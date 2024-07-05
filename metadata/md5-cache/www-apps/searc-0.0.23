@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile unpack
+DEPEND=dev-libs/libxml2 net-libs/libmicrohttpd acct-user/searc acct-group/searc
+DESCRIPTION=scraper for search results of popular engines, caches them and creates a HTML UI
+EAPI=8
+HOMEPAGE=http://ni.sijanec.eu./sijanec/sear.c
+IUSE=oldstorage logmem
+KEYWORDS=*
+RDEPEND=dev-libs/libxml2 net-libs/libmicrohttpd acct-user/searc acct-group/searc
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://ni.sijanec.eu./sijanec/sear.c/snapshot/sear.c-0.0.23.tar.gz -> searc-0.0.23.tar.gz
+_md5_=3786d45aa2b639f95ac6c5870155ab5f
