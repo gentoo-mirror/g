@@ -2,5 +2,5 @@ acct-group/pamldapd 0.0.0: Group for net-nds/pamldapd
 acct-group/searc 0.0.0: Group for www-apps/searc
 acct-user/pamldapd 0.0.0: User for net-nds/pamldapd
 acct-user/searc 0.0.0: User for www-apps/searc
-net-nds/pamldapd 0.3 0.4 0.5 0.6: Simple LDAP server, uses PAM as backend
+net-nds/pamldapd 0.3 0.4 0.5 0.6 0.7: Simple LDAP server, uses PAM as backend
 www-apps/searc 0.0.23 0.0.27: scraper for search results of popular engines, caches them and creates a HTML UI
